@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(252, 236, 217);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+}
+nav > ul  {
+    display: flex;
+    gap: 20px;
+}
+nav > ul > a > li{
+    list-style: none;
+}
+
+nav > ul > a, header a{
+    text-decoration: none;
+    color: black;
+}
+#talk{
+    background-color: goldenrod;
+    border-radius: 30px;
+    padding: 10px 30px;
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    padding: 50px;
+}
+.intro{
+    margin: 40px 0 0 60px;
+}
+.banner > .intro > ul {
+    display: flex;
+    gap: 20px;
+    padding-left: 13px;
+}
+main > div > a{
+    text-decoration: none;
+    
+}
+#want{
+    margin-right: 12px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding: 5px 15px;
+    font-size: 12px;
+    font-weight: 800;
+
+}
+.banner > .intro > a{
+    text-decoration: none;
+}
+.banner > .avatar{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+    border-radius: 100%;
+    background-image: url(./1376606916.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
