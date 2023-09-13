@@ -27,6 +27,7 @@ nav > ul > a, header a{
     border-radius: 30px;
     padding: 10px 30px;
 }
+
 .banner{
     display: flex;
     justify-content: space-around;
@@ -53,18 +54,53 @@ main > div > a{
     padding: 5px 15px;
     font-size: 12px;
     font-weight: 800;
-
+}
+#let{
+    background-color: goldenrod;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    padding: 5px 30px;
+    font-size: 12px;
+    font-weight: 800;
 }
 .banner > .intro > a{
     text-decoration: none;
 }
 .banner > .avatar{
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     background-color: black;
     border-radius: 100%;
-    background-image: url(./1376606916.svg);
+    background-image: url(./WhatsApp\ Image\ 2023-09-12\ at\ 13.03.21.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+}
+.middle-heading{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+main > div > ul{
+    display: flex;
+    gap: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 500;
+}
+.main > .services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.main > .serv-container{
+    width: 300px;
+    height: 200px;
+    background-color: #c0bcbc;
 }
