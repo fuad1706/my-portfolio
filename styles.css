@@ -2,7 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(252, 236, 217);
+    background-color: #F2EFE6;
 }
 header{
     display: flex;
@@ -23,7 +23,7 @@ nav > ul > a, header a{
     color: black;
 }
 #talk{
-    background-color: goldenrod;
+    background-color: #FEDA0A;
     border-radius: 30px;
     padding: 10px 30px;
 }
@@ -56,7 +56,7 @@ main > div > a{
     font-weight: 800;
 }
 #let{
-    background-color: goldenrod;
+    background-color: #FEDA0A;
     color: black;
     border: none;
     border-radius: 30px;
@@ -112,8 +112,9 @@ main > div > ul{
 
 .card {
     width: 300px;
-    height: 50px;
-    background-color: #999;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #D9D9D9;
    margin: 20px;
    display: flex;
    align-items: center;
@@ -122,4 +123,88 @@ main > div > ul{
 
 .card h1 {
     font-size: 15px;
+}
+.view-all{
+    /* text-decoration: none; */
+    background-color: #FEDA0A;
+    border-radius: 30px;
+    color: black;
+    padding: 10px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.portfolio-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.portfoli-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.port-card{
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 15px;
+    margin: 20px;
+}
+.port-card h3{
+    padding-bottom: 30px;
+    padding-top: 80px;
+}
+.port-card p{
+    text-align: left;
+    padding: 10px;
+}
+.port-card a{
+    text-decoration: none;
+    color: black;
+}
+.testimony{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.test-card{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly
+}
+.testi-card{
+    width: 300px;
+    height: 200px;
+    background-color: #D9D9D9;
+    border-radius: 5px;
+    margin: 10px 10px 60px 10px;
+    padding-top: 30px;
+
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.foot-content{
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+}
+.foot-content h1{
+    margin-right: 300px;
+    font-size: 80px;
 }
