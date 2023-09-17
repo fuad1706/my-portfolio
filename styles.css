@@ -173,6 +173,9 @@ main > div > ul{
     align-items: center;
     text-align: center;
 }
+#wordtest{
+    margin-bottom: 150px;
+}
 
 .test-card{
     display: flex;
@@ -180,15 +183,36 @@ main > div > ul{
     align-items: center;
     justify-content: space-evenly
 }
+
 .testi-card{
     width: 300px;
-    height: 200px;
     background-color: #D9D9D9;
     border-radius: 5px;
     margin: 10px 10px 60px 10px;
     padding-top: 30px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.testi-card p{
+    font-size: 14px;
+    text-align: left;
+    padding: 20px;
+}
+
+.test-card-img {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 50;
+    left: 70px;
+    right: 0;
+    bottom: 205px;
 
 }
+
 .foot{
     display: flex;
     justify-content: space-between;
